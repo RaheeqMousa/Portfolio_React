@@ -6,12 +6,12 @@
   
 
 .back{
-    background-color: pink;
+    background-color: rgba(178, 172, 239, 0.771); 
 }
 
 .profile_style{
-    width:280px;
-    height:280px;
+    width:350px;
+    height:350px;
     border-radius: 50%;
 }
 
@@ -25,5 +25,12 @@
 @media (max-width: 490px) {
     .divide_line {
         width: 100px;
+    }
+}
+
+@media (max-width: 350px) {
+    .profile_style {
+        width:250px;
+        height:250px;
     }
 }

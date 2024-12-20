@@ -16,9 +16,9 @@ export default function Footer() {
                     <div className='d-flex justify-content-center flex-column' >    
                         <p className='fs-2 fw-bold'>AROUND THE WEB</p>
                         <div className='d-flex align-content-center justify-content-center gap-3 px-5 ' >
-                            <a ><FaFacebook size={40} /></a>
-                            <a><FaInstagram size={40} /></a>
-                            <a><FaLinkedin size={40} /></a>
+                            <a href='#'><FaFacebook size={40} color='white'/></a>
+                            <a href='#'><FaInstagram size={40}  color='white'/></a>
+                            <a href='https://www.linkedin.com/in/raheeq-mousa-b960b7291/'><FaLinkedin size={40}  color='white'/></a>
                         </div>
                     </div>
                     <div className='d-flex justify-content-center flex-column'>

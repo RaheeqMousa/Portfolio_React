@@ -19,7 +19,7 @@ img{
   }
 
 
-@media (max-width: 500px) {
+  @media (max-width: 500px) {
     .divide_line {
         width: 100px;
     }
@@ -27,9 +27,12 @@ img{
         width: 100%;
     }
 
+
+}
+@media (max-width: 405px) {
     img{ 
-        width: 100%;
+        width: 95%;
         height: auto;
     }
-
+ 
 }
