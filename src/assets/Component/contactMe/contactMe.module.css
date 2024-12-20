@@ -1,0 +1,20 @@
+.divide_line {
+    border-top: 8px solid #1a252f;
+    width: 200px;
+    border-radius: 5px;
+}
+
+h4{
+    color: #1a252f;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+@media (max-width: 490px) {
+    .divide_line{
+        width: 100px;
+    }
+    .container{
+        width: 100%;
+    }
+}

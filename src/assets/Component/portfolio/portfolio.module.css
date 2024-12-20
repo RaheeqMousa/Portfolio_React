@@ -1,0 +1,35 @@
+.divide_line {
+    border-top: 8px solid #1a252f;
+    width: 200px;
+    border-radius: 5px;
+}
+
+h2{
+    color: #1a252f;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+img{
+    width: 350px;
+    height: 250px;
+    margin:10px;
+    border:1px solid black;
+    border-radius: 12px;
+  }
+
+
+@media (max-width: 500px) {
+    .divide_line {
+        width: 100px;
+    }
+    .container{
+        width: 100%;
+    }
+
+    img{ 
+        width: 100%;
+        height: auto;
+    }
+
+}

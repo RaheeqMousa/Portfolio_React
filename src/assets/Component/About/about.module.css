@@ -1,0 +1,47 @@
+h3{
+    color:white;
+    font-size: 34px;
+    font-weight: bold;
+}
+.styles {
+    background-color: rgba(178, 172, 239, 0.771); 
+}
+
+.paragraphStyle {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin:10px 0;
+    width: 450px;
+}
+
+.buttonStyle{
+    color: white;
+    background-color: rgba(178, 172, 239, 0.771); 
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 200px;
+    border-color: white;
+}
+
+.about{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+  
+@media (max-width: 945px) {
+    .about {
+      flex-direction: column; 
+      gap: 10px; 
+    }
+    .paragraphStyle{
+        width:100%;
+    }
+  }
+  

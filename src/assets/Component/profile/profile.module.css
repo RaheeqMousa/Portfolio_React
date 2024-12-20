@@ -1,0 +1,29 @@
+.divide_line {
+    border-top: 8px solid white;
+    width: 200px;
+    border-radius: 5px;
+}
+  
+
+.back{
+    background-color: pink;
+}
+
+.profile_style{
+    width:280px;
+    height:280px;
+    border-radius: 50%;
+}
+
+.major{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media (max-width: 490px) {
+    .divide_line {
+        width: 100px;
+    }
+}
