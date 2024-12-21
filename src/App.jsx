@@ -5,16 +5,22 @@ import ContactMe from './assets/Component/contactMe/ContactMe';
 import AboutUs from './assets/Component/About/AboutUs';
 import Portfolio from './assets/Component/portfolio/Portfolio';
 import Profile from './assets/Component/profile/Profile';
-
+import NotFound from './assets/Component/NotFound/NotFound';
+import {Route, Routes} from 'react-router-dom'
 
 export default function App() {
   return (
     <div>
       <Navbar />
-      <Profile />
-      <Portfolio />
-      <AboutUs />
-      <ContactMe />
+
+      <Routes>
+        <Route path="/" element={<Profile />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/contact" element={<ContactMe />} />
+        <Route path="*" elements={<NotFound />} />
+      </Routes>
+
       <Footer />
     </div>   
   )
