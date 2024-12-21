@@ -12,10 +12,10 @@ export default function App() {
   return (
     <div>
       <Navbar />
+      <Profile />
 
       <Routes>
-        <Route path="/" element={<Profile />} />
-        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/" element={<Portfolio />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/contact" element={<ContactMe />} />
         <Route path="*" elements={<NotFound />} />
