@@ -1,13 +1,12 @@
 import React from 'react'
-import reactECommerce from './React-ECommerce-website.png';
-import elraheeqStore from './elraheeqStore.png';
-import crudReact from './CrudReact.png'
-import SmallStore_js from './SmallStore_js.png'
-import CoursesWebsite from './CoursesWebsiteHTMLCSS.png'
+import reactECommerce from '/React-ECommerce-website.png';
+import elraheeqStore from '/elraheeqStore.png';
+import crudReact from '/CrudReact.png'
+import SmallStore_js from '/SmallStore_JS.png'
+import CoursesWebsite from '/CoursesWebsiteHTMLCSS.png'
 import { FaStar } from 'react-icons/fa';
-import style from './portfolio.module.css'
+import style from '/portfolio.module.css'
 import { Link } from 'react-router-dom';
-
 
 
 export default function () {
