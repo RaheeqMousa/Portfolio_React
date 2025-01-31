@@ -16,7 +16,7 @@ export default function ContactForm() {
             <input type="email" placeholder="Email Address" className="form-control" />
             <input type="tel" placeholder="Phone Number" className="form-control" />
             <textarea placeholder="Message" className="form-control"></textarea>
-            <button type="submit" className="btn btn-primary">Send</button>
+            <button type="submit" className="btn btn-primary w-25">Send</button>
         </div>
       </div>
     </div>
