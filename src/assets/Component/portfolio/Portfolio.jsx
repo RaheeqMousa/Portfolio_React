@@ -1,8 +1,8 @@
 import React from 'react'
-import reactECommerce from '/React-ECommerce-website.png';
+import reactECommerce from '/ReactECommerceWebsite.png';
 import elraheeqStore from '/elraheeqStore.png';
 import crudReact from '/CrudReact.png'
-import SmallStore_js from '/SmallStore_JS.png'
+import SmallStore_js from '/SmallStoreJS.png'
 import CoursesWebsite from '/CoursesWebsiteHTMLCSS.png'
 import { FaStar } from 'react-icons/fa';
 import style from '/portfolio.module.css'
