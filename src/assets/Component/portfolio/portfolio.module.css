@@ -12,7 +12,7 @@ h2{
 
 img{
     width: 350px;
-    height: 250px;
+    height: auto;
     margin:10px;
     border:1px solid black;
     border-radius: 12px;

@@ -1,7 +1,14 @@
 import React from 'react'
 import PortfolioImage from './PortfolioImage.png';
+import reactECommerce from './React-ECommerce-website.png';
+import elraheeqStore from './elraheeqStore.png';
+import crudReact from './crudReact.png'
+import SmallStore_js from './SmallStore_js.png'
+import CoursesWebsite from './CoursesWebsiteHTMLCSS.png'
 import { FaStar } from 'react-icons/fa';
- import style from './portfolio.module.css'
+import style from './portfolio.module.css'
+import { Link } from 'react-router-dom';
+
 
 
 export default function () {
@@ -19,27 +26,36 @@ export default function () {
           </div> 
 
           <div className='row'>
+
               <div className="col-xl-4 col-lg-4 col-md-6 mb-4">
-                <img src={PortfolioImage} />
+                <Link to={'https://goqwikly.onrender.com'} target="_blank">
+                  <img src={reactECommerce} />
+                </Link>
               </div>
 
               <div className="col-xl-4 col-lg-4 col-md-6 mb-4">
-                <img src={PortfolioImage} />
+                <Link to={'https://raheeqmousa.github.io/3lRaheeq-Store/'} target="_blank">
+                  <img src={elraheeqStore} />
+                </Link>
               </div>
 
               <div className="col-xl-4 col-lg-4 col-md-6 mb-4">
-                <img src={PortfolioImage} />
+                <Link to={'https://react-crud-project-rlw4.onrender.com/'} target="_blank">
+                  <img src={crudReact} />
+                </Link>
               </div>
 
               <div className="col-xl-4 col-lg-4 col-md-6 mb-4">
-                <img src={PortfolioImage} />
+                <Link to={'https://raheeqmousa.github.io/Products-according-to-the-chosen-category/'} target="_blank">
+                  <img src={SmallStore_js} />
+                </Link>
               </div>
               <div className="col-xl-4 col-lg-4 col-md-6 mb-4">
-                <img src={PortfolioImage} />
+                <Link to={'https://raheeqmousa.github.io/PROJECT-1/'} target="_blank">
+                    <img src={CoursesWebsite} />
+                </Link>
               </div>
-              <div className="col-xl-4 col-lg-4 col-md-6 mb-4">
-                <img src={PortfolioImage} />
-              </div>
+
           </div>
             
       </div>

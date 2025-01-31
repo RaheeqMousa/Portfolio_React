@@ -6,8 +6,9 @@ export default function Profile() {
 
   return (
     <div className={`py-5 ${style.back}`}>
-        <div className={`d-flex justify-content-center mt-5 ` }>
+        <div className={`d-flex justify-content-center flex-column align-items-center` }>
             <img src={Raheeq} className={`${style.profile_style}`} ></img>
+            <h2 className={`text-center mt-3`}>Raheeq Mousa</h2>
         </div>
         <div className='d-flex justify-content-center gap-3 mt-5'>
           <div className={`${style.divide_line}`}></div>
