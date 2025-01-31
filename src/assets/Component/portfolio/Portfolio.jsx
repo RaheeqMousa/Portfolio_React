@@ -1,11 +1,11 @@
 import React from 'react'
-import reactECommerce from '/ReactECommerceWebsite.png';
-import elraheeqStore from '/elraheeqStore.png';
-import crudReact from '/CrudReact.png'
-import SmallStore_js from '/SmallStoreJS.png'
-import CoursesWebsite from '/CoursesWebsiteHTMLCSS.png'
+import ReactECommerce from './ReactECommerceWebsite.png';
+import ElraheeqStore from './elraheeqStore.png';
+import CrudReact from './CrudReact.png'
+import SmallStore_js from './SmallStoreJS.png'
+import CoursesWebsite from './CoursesWebsiteHTMLCSS.png'
 import { FaStar } from 'react-icons/fa';
-import style from '/portfolio.module.css'
+import style from './portfolio.module.css'
 import { Link } from 'react-router-dom';
 
 
@@ -27,19 +27,19 @@ export default function () {
 
               <div className="col-xl-4 col-lg-4 col-md-6 mb-4">
                 <Link to={'https://goqwikly.onrender.com'} target="_blank">
-                  <img src={reactECommerce} />
+                  <img src={ReactECommerce} />
                 </Link>
               </div>
 
               <div className="col-xl-4 col-lg-4 col-md-6 mb-4">
                 <Link to={'https://raheeqmousa.github.io/3lRaheeq-Store/'} target="_blank">
-                  <img src={elraheeqStore} />
+                  <img src={ElraheeqStore} />
                 </Link>
               </div>
 
               <div className="col-xl-4 col-lg-4 col-md-6 mb-4">
                 <Link to={'https://react-crud-project-rlw4.onrender.com/'} target="_blank">
-                  <img src={crudReact} />
+                  <img src={CrudReact} />
                 </Link>
               </div>
 
