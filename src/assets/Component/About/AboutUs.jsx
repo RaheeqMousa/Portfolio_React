@@ -12,11 +12,9 @@ export default function AboutUs() {
         <div className='d-flex justify-content-center align-items-center flex-column gap-5'>
             <h3>About</h3>
             <div className={`${style.about}`}>
+                  
                 <p className={`${ style.paragraphStyle}`}>
-                    Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
-                </p>
-                <p className={`${ style.paragraphStyle}`}>
-                    You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
+                    Hi, I'm [Your Name], a passionate web developer with experience in building responsive and user-friendly websites. I specialize in front-end development using technologies like React, HTML, CSS, and JavaScript to create engaging digital experiences. Whether it's an eCommerce platform or a personal project, I focus on clean code, seamless performance, and intuitive design to bring ideas to life                
                 </p>
                 
             </div>
