@@ -18,7 +18,7 @@ export default function AboutUs() {
                 </p>
                 
             </div>
-            <button className={`p-3 ${style.buttonStyle}`}><FaDownload size={25} color='white'></FaDownload>Free Download!</button>
+
         </div>
     </div>
 
