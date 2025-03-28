@@ -17,7 +17,6 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Portfolio />} />
         <Route path="/about" element={<AboutUs />} />
-        <Route path="/contact" element={<ContactMe />} />
         <Route path="*" elements={<NotFound />} />
       </Routes>
 
